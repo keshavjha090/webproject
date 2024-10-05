@@ -44,7 +44,7 @@ app.get('/about/*',(req,res)=>{
 })
 app.get('*',(req,res)=>{
     res.render("404",{
-        errorcomment:"Sorry Page does not found"
+        errorcomment:"Sorry Page does not found click here to go back"
     });
 })
 
